@@ -79,7 +79,11 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
+<<<<<<<< HEAD:wordpress/wp-config-sample.php
 define( 'WP_DEBUG', false );
+========
+define('WP_DEBUG', false);
+>>>>>>>> parent of ca4938b (mis cambios):wordpress/wp-config.php
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -88,8 +92,13 @@ define( 'WP_DEBUG', false );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
+<<<<<<<< HEAD:wordpress/wp-config-sample.php
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
+========
+if (!defined('ABSPATH')) {
+	define('ABSPATH', __DIR__ . '/');
+>>>>>>>> parent of ca4938b (mis cambios):wordpress/wp-config.php
 }
 
 /** Sets up WordPress vars and included files. */
