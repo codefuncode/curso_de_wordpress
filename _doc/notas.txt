@@ -4,3 +4,5 @@ http://localhost/github/caleman9791/curso_de_wordpress/wordpress/wp-login.php
 
 Directorio para trabajar con plugins
 /wp-content/plugins/
+
+
